@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="400.0" style="-fx-background-color: #d2b48c; -fx-border-color: #a0522d; -fx-border-width: 5px;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <TextField fx:id="text1" layoutX="41.0" layoutY="72.0" prefHeight="36.0" prefWidth="157.0" promptText="Enter The No1" />
+      <TextField fx:id="text2" layoutX="41.0" layoutY="126.0" prefHeight="36.0" prefWidth="157.0" promptText="Enter the No2" />
+      <Button fx:id="addBtn" layoutX="305.0" layoutY="236.0" mnemonicParsing="false" onAction="#add" prefHeight="110.0" prefWidth="44.0" style="-fx-border-color: #ff7f50; -fx-border-width: 3px;" text="+" />
+      <Button fx:id="divBtn" layoutX="241.0" layoutY="298.0" mnemonicParsing="false" onAction="#div" prefHeight="49.0" prefWidth="52.0" style="-fx-border-color: #ff7f50; -fx-border-width: 3px;" text="/" />
+      <Button fx:id="mulBtn" layoutX="241.0" layoutY="238.0" mnemonicParsing="false" onAction="#mul" prefHeight="49.0" prefWidth="52.0" style="-fx-border-color: #ff7f50; -fx-border-width: 3px;" text="*" />
+      <Button fx:id="subBtn" contentDisplay="CENTER" layoutX="241.0" layoutY="200.0" mnemonicParsing="false" onAction="#sub" prefHeight="25.0" prefWidth="108.0" style="-fx-border-color: #ff7f50; -fx-border-width: 3px;" text="-" textAlignment="CENTER" />
+      <Button fx:id="tanBtn" layoutX="62.0" layoutY="236.0" mnemonicParsing="false" onAction="#tan" prefHeight="110.0" prefWidth="44.0" style="-fx-border-color: #cd5c5c; -fx-border-width: 3px;" text="tan" />
+      <Button fx:id="sinBtn" layoutX="116.0" layoutY="238.0" mnemonicParsing="false" onAction="#sin" prefHeight="49.0" prefWidth="52.0" style="-fx-border-color: #cd5c5c; -fx-border-width: 3px;" text="Sin" />
+      <Button fx:id="cosBtn" layoutX="116.0" layoutY="298.0" mnemonicParsing="false" onAction="#cos" prefHeight="49.0" prefWidth="52.0" style="-fx-border-color: #cd5c5c; -fx-border-width: 3px;" text="cos" />
+      <Button fx:id="exBtn" layoutX="62.0" layoutY="200.0" mnemonicParsing="false" onAction="#exp" prefHeight="25.0" prefWidth="108.0" style="-fx-border-width: 3px; -fx-border-color: #cd5c5c;" text="exp" />
+      <Label fx:id="ansLbl" layoutX="217.0" layoutY="101.0" prefHeight="36.0" prefWidth="157.0" style="-fx-border-color: #a0522d; -fx-border-radius: 8px;" textAlignment="CENTER" />
+      <Text fill="#80613fcf" fontSmoothingType="LCD" layoutX="219.0" layoutY="48.0" stroke="#2637d1" strokeType="INSIDE" strokeWidth="0.0" style="-fx-opacity: 2px;" text="Calculator" textAlignment="CENTER" wrappingWidth="156.99999928474426">
+         <font>
+            <Font name="Lucida Sans Demibold" size="28.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>
